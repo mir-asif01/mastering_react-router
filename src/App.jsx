@@ -1,7 +1,8 @@
-function App(){
-  return <>
-    <h1 className="text-center">React router practice</h1>
-  </>
+import { RouterProvider } from "react-router-dom";
+import { routes } from "./routes/routes";
+
+function App() {
+  return <RouterProvider router={routes} />;
 }
 
-export default App
+export default App;
