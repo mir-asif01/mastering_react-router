@@ -16,6 +16,9 @@ function Navbar() {
               <Link to={"/order"}>Order</Link>
             </li>
             <li>
+              <Link to={"/posts"}>Posts</Link>
+            </li>
+            <li>
               <Link to={"/sign-in"}>SignIn</Link>
             </li>
           </ul>
